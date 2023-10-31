@@ -3,6 +3,7 @@ import Header from "./components/Header" ;
 import TransactionForm from "./components/transactions/TransactionForm";
 import Balance from "./components/Balance";
 import TransactionList from "./components/transactions/TransactionList";
+import IncomeExpenses from "./components/IncomeExpenses";
 
 function App() {
 
@@ -12,10 +13,11 @@ function App() {
      <GlobalProvider>
       
       <Header />
+      <IncomeExpenses />
       <Balance />
       <TransactionForm />
       <TransactionList />
-      <h1>Hola mundo </h1>
+      
      
      </GlobalProvider>
       

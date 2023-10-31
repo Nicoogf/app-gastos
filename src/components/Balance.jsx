@@ -16,7 +16,7 @@ const Balance = () => {
       
       <h1>Balance</h1>
 
-      <h3> { total } </h3>
+      <h3> $ { total } </h3>
         
     </div>
   )
