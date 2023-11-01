@@ -12,11 +12,11 @@ const Balance = () => {
  
   
   return (
-    <div>
+    <div className="flex justify-between">
       
       <h1>Balance</h1>
 
-      <h3> $ { total } </h3>
+      <h3 className="text-2xl font-bold"> $ { total } </h3>
         
     </div>
   )

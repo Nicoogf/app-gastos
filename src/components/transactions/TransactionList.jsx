@@ -7,7 +7,7 @@ const TransactionList = () => {
 
     <>
     <h3 className='font-bold text-xl text-white block w-full'> Historial  </h3>
-    <ul>
+    <ul className="">
 
       {
         transactions.map( (transaction) => (

@@ -14,20 +14,27 @@ function App() {
       
      
       <div className="bg-zinc-900 text-white h-screen flex justify-center items-center">
-        <div className=" bg-zinc-800 p-10 rounded-lg flex">
+       
+       <div className="container w-2/6 flex items-center">
+    
+       <div className=" bg-zinc-800 p-10 rounded-lg flex gap-x-2 ">
+      
           <div className="">
-            <Header />
+          <h1 className="text-4xl font-bold">Gestor de Gastos</h1>
             <IncomeExpenses />
             <Balance />
             <TransactionForm />
           </div>
 
-          <div>
+          <div className="w-full">
             <TransactionList />
           </div>
          
           
-        </div>       
+       </div> 
+
+       </div>    
+
       </div>
        
       
